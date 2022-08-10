@@ -57,5 +57,7 @@ body {
   .mycode {
     display: block;
     margin-left: 40px;
-    text-align: centre;
+    text-align:0 auto;
+    position: relative;
+
    }
