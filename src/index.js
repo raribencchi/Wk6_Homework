@@ -9,7 +9,7 @@ function showCurrentWeather(response) {
       "Wind:" + Math.round(response.data.wind.speed) + " Km/h";
     document.querySelector("#description").innerHTML =
       response.data.weather[0].main;
-    //document.querySelector("#precipitation").innerHTML = "Precipitation" + response.data.main.precipitation + "%";
+   // document.querySelector("#precipitation").innerHTML = "Precipitation" + response.data.main.precipitation + "%";
   }
   
   function searchCity(city) {
